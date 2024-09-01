@@ -1,0 +1,18 @@
+docker compose build
+docker compose up -d
+
+composer update
+
+npm install
+
+run dev
+
+
+php artisan reverb:start
+php artisan queue:work
+
+
+
+
+
+
